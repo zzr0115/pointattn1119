@@ -151,7 +151,7 @@ if __name__ == '__main__':
         include_package_data=True,
         package_data={'ops': ['*/*.so']},
         license='Apache License 2.0',
-	install_requires=['torch>=2.0.0'],
+	      install_requires=['torch>=2.0.0'],
         ext_modules=[
             # make_cuda_ext(
             #     name='sparse_conv_ext',
