@@ -3,7 +3,7 @@
 __version__ = '0.14.0'
 short_version = __version__
 
-
+# 将字符串转为可比较的元组
 def parse_version_info(version_str):
     version_info = []
     for x in version_str.split('.'):
