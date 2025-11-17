@@ -15,7 +15,7 @@ dependencies = [
     "transforms3d>=0.4.2",
     "open3d>=0.13.0",
     "chamfer-3d",
-    
+    "mmdet3d",
 ]
 
 
@@ -48,7 +48,7 @@ conflicts = [
 
 [tool.uv.sources]
 chamfer-3d = { path = "utils/ChamferDistancePytorch/chamfer3D/dist/chamfer_3d-0.0.0-cp310-cp310-linux_x86_64.whl" }
-
+mmdet3d = { path = "dist/mmdet3d-0.14.0-cp310-cp310-linux_x86_64.whl" }
 
 torch = [
   { index = "pytorch-cpu", extra = "cpu" },
